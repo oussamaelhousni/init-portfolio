@@ -5,6 +5,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import Description from "./components/Description";
+import Location from "./components/Location";
+import JoinList from "./components/JoinList";
 function App() {
   return (
     <div className="container">
@@ -30,6 +32,8 @@ function App() {
         turnLeft={false}
       />
       <Description />
+      <Location />
+      <JoinList />
     </div>
   );
 }

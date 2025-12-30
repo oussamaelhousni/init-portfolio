@@ -13,7 +13,7 @@ function About() {
         <span style={{ color: "white" }}>Hi, I am Oussama.</span> I build cool
         websites like this one.
       </p>
-      <a href="">
+      <a>
         contact <FaArrowRight className="arrow" />
       </a>
     </div>
